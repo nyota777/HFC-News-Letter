@@ -1,0 +1,251 @@
+2026-03-13 11:23:31,076 [INFO] main - ━━━━━━━━ HFC Newsletter Pipeline START ━━━━━━━━
+2026-03-13 11:23:31,117 [INFO] main - Step 1/5 — Scraping sources …
+2026-03-13 11:23:31,117 [INFO] scraper.source_scraper - Starting scraping logic. Lookback days = 1
+2026-03-13 11:23:33,564 [WARNING] scraper.source_scraper - HTTP ? on https://www.businessdailyafrica.com/bd/markets/rss (attempt 1/3)
+2026-03-13 11:23:36,939 [WARNING] scraper.source_scraper - HTTP ? on https://www.businessdailyafrica.com/bd/markets/rss (attempt 2/3)
+2026-03-13 11:23:39,903 [WARNING] scraper.source_scraper - HTTP ? on https://www.businessdailyafrica.com/bd/markets/rss (attempt 3/3)
+2026-03-13 11:23:43,436 [WARNING] scraper.source_scraper - HTTP ? on https://nation.africa/kenya/business/rss (attempt 1/3)
+2026-03-13 11:23:46,937 [WARNING] scraper.source_scraper - HTTP ? on https://nation.africa/kenya/business/rss (attempt 2/3)
+2026-03-13 11:23:50,170 [WARNING] scraper.source_scraper - HTTP ? on https://nation.africa/kenya/business/rss (attempt 3/3)
+2026-03-13 11:23:52,850 [WARNING] scraper.source_scraper - HTTP ? on https://www.standardmedia.co.ke/rss/business.xml (attempt 1/3)
+2026-03-13 11:23:55,869 [WARNING] scraper.source_scraper - HTTP ? on https://www.standardmedia.co.ke/rss/business.xml (attempt 2/3)
+2026-03-13 11:23:58,589 [WARNING] scraper.source_scraper - HTTP ? on https://www.standardmedia.co.ke/rss/business.xml (attempt 3/3)
+2026-03-13 11:24:02,183 [WARNING] scraper.source_scraper - HTTP ? on https://www.the-star.co.ke/business/rss (attempt 1/3)
+2026-03-13 11:24:05,163 [WARNING] scraper.source_scraper - HTTP ? on https://www.the-star.co.ke/business/rss (attempt 2/3)
+2026-03-13 11:24:08,220 [WARNING] scraper.source_scraper - HTTP ? on https://www.the-star.co.ke/business/rss (attempt 3/3)
+2026-03-13 11:24:11,977 [INFO] scraper.source_scraper - [RSS] Kenyan Wall Street: 0 links found
+2026-03-13 11:24:13,416 [WARNING] scraper.source_scraper - Request failed: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno 11001] getaddrinfo failed)")) (attempt 1/3)
+2026-03-13 11:24:15,728 [WARNING] scraper.source_scraper - Request failed: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno 11001] getaddrinfo failed)")) (attempt 2/3)
+2026-03-13 11:24:19,691 [WARNING] scraper.source_scraper - Request failed: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno 11001] getaddrinfo failed)")) (attempt 3/3)
+2026-03-13 11:24:33,018 [WARNING] scraper.source_scraper - HTTP ? on https://www.centralbank.go.ke/press-releases/ (attempt 1/3)
+2026-03-13 11:24:36,608 [WARNING] scraper.source_scraper - HTTP ? on https://www.centralbank.go.ke/press-releases/ (attempt 2/3)
+2026-03-13 11:24:40,667 [WARNING] scraper.source_scraper - HTTP ? on https://www.centralbank.go.ke/press-releases/ (attempt 3/3)
+2026-03-13 11:24:47,837 [INFO] scraper.source_scraper - [HTML] Business Today Kenya: 10 links found
+2026-03-13 11:24:52,029 [WARNING] scraper.source_scraper - HTTP ? on https://www.kenyans.co.ke/business (attempt 1/3)
+2026-03-13 11:24:56,229 [WARNING] scraper.source_scraper - HTTP ? on https://www.kenyans.co.ke/business (attempt 2/3)
+2026-03-13 11:25:00,492 [WARNING] scraper.source_scraper - HTTP ? on https://www.kenyans.co.ke/business (attempt 3/3)
+2026-03-13 11:25:05,583 [INFO] scraper.source_scraper - [HTML] Finance in Africa: 10 links found
+2026-03-13 11:25:09,936 [INFO] scraper.source_scraper - [HTML] BBC Business: 12 links found
+2026-03-13 11:25:14,849 [INFO] scraper.source_scraper - [HTML] Kenya Moja Business: 0 links found
+2026-03-13 11:25:19,408 [INFO] scraper.source_scraper - [HTML] Capital FM Business: 15 links found
+2026-03-13 11:25:25,326 [INFO] scraper.source_scraper - [HTML] ePaper Nation Africa: 0 links found
+2026-03-13 11:25:29,474 [INFO] scraper.source_scraper - [HTML] People Daily Business: 6 links found
+2026-03-13 11:25:34,136 [INFO] scraper.source_scraper - [HTML] CNN Business: 9 links found
+2026-03-13 11:25:37,631 [WARNING] scraper.source_scraper - HTTP ? on https://www.ft.com/markets (attempt 1/3)
+2026-03-13 11:25:41,313 [WARNING] scraper.source_scraper - HTTP ? on https://www.ft.com/markets (attempt 2/3)
+2026-03-13 11:25:44,976 [WARNING] scraper.source_scraper - HTTP ? on https://www.ft.com/markets (attempt 3/3)
+2026-03-13 11:25:44,978 [INFO] scraper.source_scraper - Total articles discovered via scraping: 62
+2026-03-13 11:25:44,978 [INFO] main - Step 2/5 — Extracting article bodies …
+2026-03-13 11:25:44,979 [INFO] scraper.article_extractor - Parsing article 1/62: https://businesstoday.co.ke/kra-appoints-new-commissioner/
+2026-03-13 11:25:49,470 [INFO] scraper.article_extractor - Parsing article 2/62: https://businesstoday.co.ke/cpf-group-launches-rwanda-office/
+2026-03-13 11:25:53,773 [INFO] scraper.article_extractor - Parsing article 3/62: https://businesstoday.co.ke/e-mobility-defines-kenyas-investment-future-amid-global-oil-volatility/
+2026-03-13 11:25:58,005 [INFO] scraper.article_extractor - Parsing article 4/62: https://businesstoday.co.ke/kcb-group-posts-11-net-profit-to-ksh68-4b/
+2026-03-13 11:26:02,127 [INFO] scraper.article_extractor - Parsing article 5/62: https://businesstoday.co.ke/cbk-rwanda-partner-to-simplify-payments/
+2026-03-13 11:26:06,209 [INFO] scraper.article_extractor - Parsing article 6/62: https://businesstoday.co.ke/kpc-first-privatisation-in-18-years-makes-strong-debut-at-nse/
+2026-03-13 11:26:10,314 [INFO] scraper.article_extractor - Parsing article 7/62: https://businesstoday.co.ke/absa-bank-gives-ksh-65m-to-magical-kenya-golf/
+2026-03-13 11:26:14,583 [INFO] scraper.article_extractor - Parsing article 8/62: https://businesstoday.co.ke/sportpesa-unveils-ksh-120-million-multi-sport-sponsorship-investment-in-kenya/
+2026-03-13 11:26:18,493 [INFO] scraper.article_extractor - Parsing article 9/62: https://businesstoday.co.ke/central-bank-seeks-ksh-50-bn-in-feb-bond-sale/
+2026-03-13 11:26:23,133 [INFO] scraper.article_extractor - Parsing article 10/62: https://businesstoday.co.ke/nse-begins-on-a-bullish-note-in-2026/
+2026-03-13 11:26:28,301 [INFO] scraper.article_extractor - Parsing article 11/62: https://financeinafrica.com/insights/female-billionaires-africas-rich-list/
+2026-03-13 11:26:32,392 [INFO] scraper.article_extractor - Parsing article 12/62: https://financeinafrica.com/news/kenyas-stanbic-holdings-reports-flat
+2026-03-13 11:26:35,295 [INFO] scraper.article_extractor - Parsing article 13/62: https://financeinafrica.com/insights/disinflation-spreads-across-africa/
+2026-03-13 11:26:39,194 [INFO] scraper.article_extractor - Parsing article 14/62: https://financeinafrica.com/insights/cairo-cranks-up-fuel-prices-17/
+2026-03-13 11:26:42,182 [INFO] scraper.article_extractor - Parsing article 15/62: https://financeinafrica.com/insights/nigerias-disinflation-at-risk/
+2026-03-13 11:26:45,265 [INFO] scraper.article_extractor - Parsing article 16/62: https://financeinafrica.com/brandpress/bujeti-launches-tax-management-tool/
+2026-03-13 11:26:48,752 [INFO] scraper.article_extractor - Parsing article 17/62: https://financeinafrica.com/brandpress/nigerians-credit-direct-invest/
+2026-03-13 11:26:52,510 [INFO] scraper.article_extractor - Parsing article 18/62: https://financeinafrica.com/insights/zimbabwe-edges-toward-clearing-23bn/
+2026-03-13 11:26:56,626 [INFO] scraper.article_extractor - Parsing article 19/62: https://financeinafrica.com/insights/nigerias-central-bank-proposed-769/
+2026-03-13 11:27:00,838 [INFO] scraper.article_extractor - Parsing article 20/62: https://financeinafrica.com/news/msc-rolls-out-war-risk-surcharge/
+2026-03-13 11:27:03,972 [INFO] scraper.article_extractor - Parsing article 21/62: https://www.bbc.com/news/articles/clyzj3g3pygo
+2026-03-13 11:27:08,410 [INFO] scraper.article_extractor - Parsing article 22/62: https://www.bbc.com/news/articles/c75e06e0kd7o
+2026-03-13 11:27:11,422 [INFO] scraper.article_extractor - Parsing article 23/62: https://www.bbc.com/news/videos/cvg8yp84mplo
+2026-03-13 11:27:14,815 [INFO] scraper.article_extractor - Parsing article 24/62: https://www.bbc.com/news/articles/c8xyk8lwr1jo
+2026-03-13 11:27:18,577 [INFO] scraper.article_extractor - Parsing article 25/62: https://www.bbc.com/news/articles/crk8rdz5131o
+2026-03-13 11:27:23,688 [INFO] scraper.article_extractor - Parsing article 26/62: https://www.bbc.com/audio/play/w3ct6rz2
+2026-03-13 11:27:27,607 [INFO] scraper.article_extractor - Parsing article 27/62: https://www.bbc.com/news/articles/cwyxz3xe04yo
+2026-03-13 11:27:31,364 [INFO] scraper.article_extractor - Parsing article 28/62: https://www.bbc.com/news/articles/c1l76581d0ro
+2026-03-13 11:27:33,976 [INFO] scraper.article_extractor - Parsing article 29/62: https://www.bbc.com/reel/video/p0lvw8qw/how-to-get-the-money-you-need-to-start-a-business
+2026-03-13 11:27:38,638 [INFO] scraper.article_extractor - Parsing article 30/62: https://www.bbc.com/news/articles/c4g23npxpwgo
+2026-03-13 11:27:41,838 [INFO] scraper.article_extractor - Parsing article 31/62: https://www.bbc.com/news/articles/cly093xxlzzo
+2026-03-13 11:27:45,501 [INFO] scraper.article_extractor - Parsing article 32/62: https://www.bbc.com/news/articles/cde4w32573xo
+2026-03-13 11:27:49,696 [INFO] scraper.article_extractor - Parsing article 33/62: https://www.capitalfm.co.ke/business/2026/03/trans-elite-sacco-gets-sh250mn-to-expand-credit-access/
+2026-03-13 11:27:52,895 [INFO] scraper.article_extractor - Parsing article 34/62: https://www.capitalfm.co.ke/business/2026/03/kra-picks-new-head-to-combat-financial-crimes-tax-evasion/
+2026-03-13 11:27:55,832 [INFO] scraper.article_extractor - Parsing article 35/62: https://www.capitalfm.co.ke/business/2025/12/explainer-understanding-green-bonds-an-investors-guide/
+2026-03-13 11:27:59,296 [INFO] scraper.article_extractor - Parsing article 36/62: https://www.capitalfm.co.ke/business/2025/11/abojani-conference-urges-ownership-economy-for-wealth-creation/
+2026-03-13 11:28:03,033 [INFO] scraper.article_extractor - Parsing article 37/62: https://www.capitalfm.co.ke/business/2026/03/lloyds-bank-of-scotland-and-halifax-apps-showed-customers-other-users-transactions/
+2026-03-13 11:28:05,748 [INFO] scraper.article_extractor - Parsing article 38/62: https://www.capitalfm.co.ke/business/2026/03/the-financial-system-is-being-rebuilt/
+2026-03-13 11:28:11,877 [INFO] scraper.article_extractor - Parsing article 39/62: https://www.capitalfm.co.ke/business/2026/03/french-investors-eye-kenyas-digital-creative-economy/
+2026-03-13 11:28:16,277 [INFO] scraper.article_extractor - Parsing article 40/62: https://www.capitalfm.co.ke/business/2026/03/stima-sacco-disburses-sh4-25bn-in-mobile-loans/
+2026-03-13 11:28:20,570 [INFO] scraper.article_extractor - Parsing article 41/62: https://www.capitalfm.co.ke/business/2026/03/financial-services-provider-cpf-group-expands-to-rwanda/
+2026-03-13 11:28:29,490 [INFO] scraper.article_extractor - Parsing article 42/62: https://www.capitalfm.co.ke/business/2026/03/us-inflation-stable-ahead-of-iran-shock/
+2026-03-13 11:28:33,153 [INFO] scraper.article_extractor - Parsing article 43/62: https://www.capitalfm.co.ke/business/2026/03/sbm-bank-kenya-returns-to-profit-with-sh614mn-pre-tax-earnings/
+2026-03-13 11:28:36,694 [INFO] scraper.article_extractor - Parsing article 44/62: https://www.capitalfm.co.ke/business/2026/03/kcb-group-net-profit-up-11pc-to-sh68-4bn/
+2026-03-13 11:28:40,094 [INFO] scraper.article_extractor - Parsing article 45/62: https://www.capitalfm.co.ke/business/2026/02/kenyas-investment-case-has-matured-why-country-stands-above-african-peers/
+2026-03-13 11:28:43,274 [INFO] scraper.article_extractor - Parsing article 46/62: https://www.capitalfm.co.ke/business/2026/02/kcb-takes-over-sh42bn-smart-driving-license-project-from-nbk/
+2026-03-13 11:28:46,910 [INFO] scraper.article_extractor - Parsing article 47/62: https://www.capitalfm.co.ke/business/2026/02/stanchart-launches-co-working-banking-space-in-nanyuki/
+2026-03-13 11:28:51,191 [INFO] scraper.article_extractor - Parsing article 48/62: https://peopledaily.digital/business/cbk-and-rwanda-central-bank-sign-deal-to-ease-cross-border-payments
+2026-03-13 11:28:53,833 [INFO] scraper.article_extractor - Parsing article 49/62: https://peopledaily.digital/business/nse-dismisses-reports-of-chairman-kittonys-exit
+2026-03-13 11:28:56,766 [INFO] scraper.article_extractor - Parsing article 50/62: https://peopledaily.digital/business/mbadi-allays-fears-of-salary-cuts-to-bankroll-infrastructure-fund
+2026-03-13 11:28:59,934 [INFO] scraper.article_extractor - Parsing article 51/62: https://peopledaily.digital/business/mbadi-hails-national-infrastructure-fund-as-a-game-changer-for-development
+2026-03-13 11:29:02,916 [INFO] scraper.article_extractor - Parsing article 52/62: https://peopledaily.digital/business/ruto-rings-bell-at-nse-to-mark-completion-of-kenya-pipeline-ipo
+2026-03-13 11:29:05,844 [INFO] scraper.article_extractor - Parsing article 53/62: https://peopledaily.digital/business/govt-lists-kpc-on-nse-in-ksh106b-privatisation-push-to-fund-infrastructure
+2026-03-13 11:29:08,883 [INFO] scraper.article_extractor - Parsing article 54/62: https://edition.cnn.com/2026/03/11/economy/us-inflation-cpi-consumer-prices-february
+2026-03-13 11:29:12,513 [INFO] scraper.article_extractor - Parsing article 55/62: https://edition.cnn.com/2026/03/11/business/credit-bureaus-mistakes-cfpb-propublica
+2026-03-13 11:29:16,869 [INFO] scraper.article_extractor - Parsing article 56/62: https://edition.cnn.com/2026/03/10/business/tax-filing-season-irs-tax-pros-cpa-ea
+2026-03-13 11:29:20,971 [INFO] scraper.article_extractor - Parsing article 57/62: https://edition.cnn.com/2026/03/12/business/video/cnn-sitroom-blitzer-goldman-make-it-make-sense-gas-oil-prices-economy-affordability
+2026-03-13 11:29:24,376 [INFO] scraper.article_extractor - Parsing article 58/62: https://edition.cnn.com/2026/03/11/business/video/cnn-sitroom-blitzer-goldman-make-it-make-sense-gas-oil-iran-economy-affordability
+2026-03-13 11:29:27,836 [INFO] scraper.article_extractor - Parsing article 59/62: https://edition.cnn.com/2026/03/11/business/video/bolduan-yurkevich-february-cpi-cnc
+2026-03-13 11:29:31,746 [INFO] scraper.article_extractor - Parsing article 60/62: https://edition.cnn.com/2026/03/03/business/gas-prices-oil-iran-war
+2026-03-13 11:29:35,171 [INFO] scraper.article_extractor - Parsing article 61/62: https://edition.cnn.com/2026/03/10/business/video/cnn-sitroom-blitzer-goldman-make-it-make-sense-gas-oil-iran
+2026-03-13 11:29:38,945 [INFO] scraper.article_extractor - Parsing article 62/62: https://edition.cnn.com/2025/04/13/success/last-minute-tax-filing-tips
+2026-03-13 11:29:44,629 [INFO] main - Step 3/5 — Cleaning & filtering …
+2026-03-13 11:29:44,629 [INFO] processing.filter - Date filter: 62 → 62 articles
+2026-03-13 11:29:44,641 [INFO] processing.filter - Keyword filter: 62 → 62 articles
+2026-03-13 11:29:48,284 [INFO] processing.deduplicator - Deduplicate: 62 → 59 articles
+2026-03-13 11:29:48,361 [INFO] processing.cleaner - Cleaning pipeline complete. Final count: 59 articles
+2026-03-13 11:29:48,362 [INFO] main - Step 4/5 — Summarising …
+2026-03-13 11:29:48,974 [INFO] main - Step 5/5 — Categorising & generating newsletter …
+2026-03-13 11:29:50,120 [INFO] output.newsletter_generator - Word document saved to output\hfc_newsletter_2026-03-13.docx
+2026-03-13 11:29:50,120 [INFO] output.newsletter_generator - Newsletter saved to: 
+ • output\hfc_newsletter_2026-03-13.txt
+ • output\hfc_newsletter_2026-03-13.md
+ • output\hfc_newsletter_2026-03-13.html
+ • output\hfc_newsletter_2026-03-13.docx
+2026-03-13 11:29:50,120 [INFO] main - ━━━━━━━━ Pipeline complete in 379.0s ━━━━━━━━
+2026-03-13 11:29:50,122 [INFO] main - Outputs generated:
+2026-03-13 11:29:50,122 [INFO] main -   [TXT] output\hfc_newsletter_2026-03-13.txt
+2026-03-13 11:29:50,122 [INFO] main -   [MD] output\hfc_newsletter_2026-03-13.md
+2026-03-13 11:29:50,123 [INFO] main -   [HTML] output\hfc_newsletter_2026-03-13.html
+2026-03-13 11:29:50,123 [INFO] main -   [DOCX] output\hfc_newsletter_2026-03-13.docx
+2026-03-13 11:55:43,626 [INFO] main - ━━━━━━━━ HFC Newsletter Pipeline START ━━━━━━━━
+2026-03-13 11:55:43,640 [INFO] main - Step 1/5 — Scraping sources …
+2026-03-13 11:55:43,642 [INFO] scraper.source_scraper - Starting scraping logic. Lookback days = 7
+2026-03-13 11:55:49,533 [WARNING] scraper.source_scraper - HTTP ? on https://www.businessdailyafrica.com/bd/markets/rss (attempt 1/3)
+2026-03-13 11:55:55,443 [WARNING] scraper.source_scraper - HTTP ? on https://www.businessdailyafrica.com/bd/markets/rss (attempt 2/3)
+2026-03-13 11:55:59,638 [WARNING] scraper.source_scraper - HTTP ? on https://www.businessdailyafrica.com/bd/markets/rss (attempt 3/3)
+2026-03-13 11:56:03,505 [WARNING] scraper.source_scraper - HTTP ? on https://nation.africa/kenya/business/rss (attempt 1/3)
+2026-03-13 11:56:07,554 [WARNING] scraper.source_scraper - HTTP ? on https://nation.africa/kenya/business/rss (attempt 2/3)
+2026-03-13 11:56:11,635 [WARNING] scraper.source_scraper - HTTP ? on https://nation.africa/kenya/business/rss (attempt 3/3)
+2026-03-13 11:56:15,197 [WARNING] scraper.source_scraper - HTTP ? on https://www.standardmedia.co.ke/rss/business.xml (attempt 1/3)
+2026-03-13 11:56:19,180 [WARNING] scraper.source_scraper - HTTP ? on https://www.standardmedia.co.ke/rss/business.xml (attempt 2/3)
+2026-03-13 11:56:23,050 [WARNING] scraper.source_scraper - HTTP ? on https://www.standardmedia.co.ke/rss/business.xml (attempt 3/3)
+2026-03-13 11:56:26,992 [WARNING] scraper.source_scraper - HTTP ? on https://www.the-star.co.ke/business/rss (attempt 1/3)
+2026-03-13 11:56:31,098 [WARNING] scraper.source_scraper - HTTP ? on https://www.the-star.co.ke/business/rss (attempt 2/3)
+2026-03-13 11:56:35,868 [WARNING] scraper.source_scraper - HTTP ? on https://www.the-star.co.ke/business/rss (attempt 3/3)
+2026-03-13 11:56:40,949 [INFO] scraper.source_scraper - [RSS] Kenyan Wall Street: 0 links found
+2026-03-13 11:56:42,623 [WARNING] scraper.source_scraper - Request failed: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno 11001] getaddrinfo failed)")) (attempt 1/3)
+2026-03-13 11:56:45,234 [WARNING] scraper.source_scraper - Request failed: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno 11001] getaddrinfo failed)")) (attempt 2/3)
+2026-03-13 11:56:48,633 [WARNING] scraper.source_scraper - Request failed: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError("HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno 11001] getaddrinfo failed)")) (attempt 3/3)
+2026-03-13 11:57:02,460 [WARNING] scraper.source_scraper - HTTP ? on https://www.centralbank.go.ke/press-releases/ (attempt 1/3)
+2026-03-13 11:57:07,629 [WARNING] scraper.source_scraper - HTTP ? on https://www.centralbank.go.ke/press-releases/ (attempt 2/3)
+2026-03-13 11:57:12,463 [WARNING] scraper.source_scraper - HTTP ? on https://www.centralbank.go.ke/press-releases/ (attempt 3/3)
+2026-03-13 11:57:20,885 [INFO] scraper.source_scraper - [HTML] Business Today Kenya: 10 links found
+2026-03-13 11:57:25,403 [WARNING] scraper.source_scraper - HTTP ? on https://www.kenyans.co.ke/business (attempt 1/3)
+2026-03-13 11:57:30,348 [WARNING] scraper.source_scraper - HTTP ? on https://www.kenyans.co.ke/business (attempt 2/3)
+2026-03-13 11:57:35,342 [WARNING] scraper.source_scraper - HTTP ? on https://www.kenyans.co.ke/business (attempt 3/3)
+2026-03-13 11:57:41,305 [INFO] scraper.source_scraper - [HTML] Finance in Africa: 11 links found
+2026-03-13 11:57:46,385 [INFO] scraper.source_scraper - [HTML] BBC Business: 12 links found
+2026-03-13 11:57:51,651 [INFO] scraper.source_scraper - [HTML] Kenya Moja Business: 0 links found
+2026-03-13 11:57:57,396 [INFO] scraper.source_scraper - [HTML] Capital FM Business: 15 links found
+2026-03-13 11:58:03,719 [INFO] scraper.source_scraper - [HTML] ePaper Nation Africa: 0 links found
+2026-03-13 11:58:08,601 [INFO] scraper.source_scraper - [HTML] People Daily Business: 6 links found
+2026-03-13 11:58:14,699 [INFO] scraper.source_scraper - [HTML] CNN Business: 9 links found
+2026-03-13 11:58:19,412 [INFO] scraper.source_scraper - [HTML] FT Markets: 14 links found
+2026-03-13 11:58:19,412 [INFO] scraper.source_scraper - Total articles discovered via scraping: 77
+2026-03-13 11:58:19,413 [INFO] main - Step 2/5 — Extracting article bodies …
+2026-03-13 11:58:19,413 [INFO] scraper.article_extractor - Parsing article 1/77: https://businesstoday.co.ke/kra-appoints-new-commissioner/
+2026-03-13 11:58:23,424 [INFO] scraper.article_extractor - Parsing article 2/77: https://businesstoday.co.ke/cpf-group-launches-rwanda-office/
+2026-03-13 11:58:27,280 [INFO] scraper.article_extractor - Parsing article 3/77: https://businesstoday.co.ke/e-mobility-defines-kenyas-investment-future-amid-global-oil-volatility/
+2026-03-13 11:58:31,219 [INFO] scraper.article_extractor - Parsing article 4/77: https://businesstoday.co.ke/kcb-group-posts-11-net-profit-to-ksh68-4b/
+2026-03-13 11:58:35,067 [INFO] scraper.article_extractor - Parsing article 5/77: https://businesstoday.co.ke/cbk-rwanda-partner-to-simplify-payments/
+2026-03-13 11:58:38,905 [INFO] scraper.article_extractor - Parsing article 6/77: https://businesstoday.co.ke/kpc-first-privatisation-in-18-years-makes-strong-debut-at-nse/
+2026-03-13 11:58:42,754 [INFO] scraper.article_extractor - Parsing article 7/77: https://businesstoday.co.ke/absa-bank-gives-ksh-65m-to-magical-kenya-golf/
+2026-03-13 11:58:46,339 [INFO] scraper.article_extractor - Parsing article 8/77: https://businesstoday.co.ke/sportpesa-unveils-ksh-120-million-multi-sport-sponsorship-investment-in-kenya/
+2026-03-13 11:58:49,991 [INFO] scraper.article_extractor - Parsing article 9/77: https://businesstoday.co.ke/central-bank-seeks-ksh-50-bn-in-feb-bond-sale/
+2026-03-13 11:58:53,758 [INFO] scraper.article_extractor - Parsing article 10/77: https://businesstoday.co.ke/nse-begins-on-a-bullish-note-in-2026/
+2026-03-13 11:58:57,811 [INFO] scraper.article_extractor - Parsing article 11/77: https://financeinafrica.com/insights/female-billionaires-africas-rich-list/
+2026-03-13 11:59:00,200 [INFO] scraper.article_extractor - Parsing article 12/77: https://financeinafrica.com/news/kenyas-stanbic-holdings-reports-flat
+2026-03-13 11:59:03,466 [INFO] scraper.article_extractor - Parsing article 13/77: https://financeinafrica.com/insights/lagos-international-financial-centre/
+2026-03-13 11:59:06,440 [INFO] scraper.article_extractor - Parsing article 14/77: https://financeinafrica.com/insights/disinflation-spreads-across-africa/
+2026-03-13 11:59:09,275 [INFO] scraper.article_extractor - Parsing article 15/77: https://financeinafrica.com/insights/cairo-cranks-up-fuel-prices-17/
+2026-03-13 11:59:11,401 [INFO] scraper.article_extractor - Parsing article 16/77: https://financeinafrica.com/brandpress/bujeti-launches-tax-management-tool/
+2026-03-13 11:59:13,368 [INFO] scraper.article_extractor - Parsing article 17/77: https://financeinafrica.com/brandpress/nigerians-credit-direct-invest/
+2026-03-13 11:59:15,949 [INFO] scraper.article_extractor - Parsing article 18/77: https://financeinafrica.com/insights/nigerias-disinflation-at-risk/
+2026-03-13 11:59:18,723 [INFO] scraper.article_extractor - Parsing article 19/77: https://financeinafrica.com/insights/zimbabwe-edges-toward-clearing-23bn/
+2026-03-13 11:59:21,796 [INFO] scraper.article_extractor - Parsing article 20/77: https://financeinafrica.com/insights/nigerias-central-bank-proposed-769/
+2026-03-13 11:59:24,458 [INFO] scraper.article_extractor - Parsing article 21/77: https://financeinafrica.com/news/msc-rolls-out-war-risk-surcharge/
+2026-03-13 11:59:26,553 [INFO] scraper.article_extractor - Parsing article 22/77: https://www.bbc.com/news/articles/clyzj3g3pygo
+2026-03-13 11:59:28,610 [INFO] scraper.article_extractor - Parsing article 23/77: https://www.bbc.com/news/articles/c75e06e0kd7o
+2026-03-13 11:59:30,667 [INFO] scraper.article_extractor - Parsing article 24/77: https://www.bbc.com/news/videos/cvg8yp84mplo
+2026-03-13 11:59:33,085 [INFO] scraper.article_extractor - Parsing article 25/77: https://www.bbc.com/news/articles/c8xyk8lwr1jo
+2026-03-13 11:59:35,519 [INFO] scraper.article_extractor - Parsing article 26/77: https://www.bbc.com/news/articles/crk8rdz5131o
+2026-03-13 11:59:37,812 [INFO] scraper.article_extractor - Parsing article 27/77: https://www.bbc.com/audio/play/w3ct6rz2
+2026-03-13 11:59:40,526 [INFO] scraper.article_extractor - Parsing article 28/77: https://www.bbc.com/news/articles/cwyxz3xe04yo
+2026-03-13 11:59:42,919 [INFO] scraper.article_extractor - Parsing article 29/77: https://www.bbc.com/news/articles/c1l76581d0ro
+2026-03-13 11:59:45,239 [INFO] scraper.article_extractor - Parsing article 30/77: https://www.bbc.com/reel/video/p0lvw8qw/how-to-get-the-money-you-need-to-start-a-business
+2026-03-13 11:59:48,768 [INFO] scraper.article_extractor - Parsing article 31/77: https://www.bbc.com/news/articles/c4g23npxpwgo
+2026-03-13 11:59:51,572 [INFO] scraper.article_extractor - Parsing article 32/77: https://www.bbc.com/news/articles/cly093xxlzzo
+2026-03-13 11:59:54,183 [INFO] scraper.article_extractor - Parsing article 33/77: https://www.bbc.com/news/articles/cde4w32573xo
+2026-03-13 11:59:57,682 [INFO] scraper.article_extractor - Parsing article 34/77: https://www.capitalfm.co.ke/business/2026/03/trans-elite-sacco-gets-sh250mn-to-expand-credit-access/
+2026-03-13 12:00:00,367 [INFO] scraper.article_extractor - Parsing article 35/77: https://www.capitalfm.co.ke/business/2026/03/kra-picks-new-head-to-combat-financial-crimes-tax-evasion/
+2026-03-13 12:00:03,136 [INFO] scraper.article_extractor - Parsing article 36/77: https://www.capitalfm.co.ke/business/2025/12/explainer-understanding-green-bonds-an-investors-guide/
+2026-03-13 12:00:06,603 [INFO] scraper.article_extractor - Parsing article 37/77: https://www.capitalfm.co.ke/business/2025/11/abojani-conference-urges-ownership-economy-for-wealth-creation/
+2026-03-13 12:00:09,585 [INFO] scraper.article_extractor - Parsing article 38/77: https://www.capitalfm.co.ke/business/2026/03/lloyds-bank-of-scotland-and-halifax-apps-showed-customers-other-users-transactions/
+2026-03-13 12:00:12,298 [INFO] scraper.article_extractor - Parsing article 39/77: https://www.capitalfm.co.ke/business/2026/03/the-financial-system-is-being-rebuilt/
+2026-03-13 12:00:14,779 [INFO] scraper.article_extractor - Parsing article 40/77: https://www.capitalfm.co.ke/business/2026/03/french-investors-eye-kenyas-digital-creative-economy/
+2026-03-13 12:00:17,475 [INFO] scraper.article_extractor - Parsing article 41/77: https://www.capitalfm.co.ke/business/2026/03/stima-sacco-disburses-sh4-25bn-in-mobile-loans/
+2026-03-13 12:00:20,271 [INFO] scraper.article_extractor - Parsing article 42/77: https://www.capitalfm.co.ke/business/2026/03/financial-services-provider-cpf-group-expands-to-rwanda/
+2026-03-13 12:00:22,951 [INFO] scraper.article_extractor - Parsing article 43/77: https://www.capitalfm.co.ke/business/2026/03/us-inflation-stable-ahead-of-iran-shock/
+2026-03-13 12:00:25,411 [INFO] scraper.article_extractor - Parsing article 44/77: https://www.capitalfm.co.ke/business/2026/03/sbm-bank-kenya-returns-to-profit-with-sh614mn-pre-tax-earnings/
+2026-03-13 12:00:28,682 [INFO] scraper.article_extractor - Parsing article 45/77: https://www.capitalfm.co.ke/business/2026/03/kcb-group-net-profit-up-11pc-to-sh68-4bn/
+2026-03-13 12:00:32,289 [INFO] scraper.article_extractor - Parsing article 46/77: https://www.capitalfm.co.ke/business/2026/02/kenyas-investment-case-has-matured-why-country-stands-above-african-peers/
+2026-03-13 12:00:36,264 [INFO] scraper.article_extractor - Parsing article 47/77: https://www.capitalfm.co.ke/business/2026/02/kcb-takes-over-sh42bn-smart-driving-license-project-from-nbk/
+2026-03-13 12:00:38,778 [INFO] scraper.article_extractor - Parsing article 48/77: https://www.capitalfm.co.ke/business/2026/02/stanchart-launches-co-working-banking-space-in-nanyuki/
+2026-03-13 12:00:41,874 [INFO] scraper.article_extractor - Parsing article 49/77: https://peopledaily.digital/business/cbk-and-rwanda-central-bank-sign-deal-to-ease-cross-border-payments
+2026-03-13 12:00:44,585 [INFO] scraper.article_extractor - Parsing article 50/77: https://peopledaily.digital/business/nse-dismisses-reports-of-chairman-kittonys-exit
+2026-03-13 12:00:47,446 [INFO] scraper.article_extractor - Parsing article 51/77: https://peopledaily.digital/business/mbadi-allays-fears-of-salary-cuts-to-bankroll-infrastructure-fund
+2026-03-13 12:00:50,520 [INFO] scraper.article_extractor - Parsing article 52/77: https://peopledaily.digital/business/mbadi-hails-national-infrastructure-fund-as-a-game-changer-for-development
+2026-03-13 12:00:53,181 [INFO] scraper.article_extractor - Parsing article 53/77: https://peopledaily.digital/business/ruto-rings-bell-at-nse-to-mark-completion-of-kenya-pipeline-ipo
+2026-03-13 12:00:56,058 [INFO] scraper.article_extractor - Parsing article 54/77: https://peopledaily.digital/business/govt-lists-kpc-on-nse-in-ksh106b-privatisation-push-to-fund-infrastructure
+2026-03-13 12:00:59,163 [INFO] scraper.article_extractor - Parsing article 55/77: https://edition.cnn.com/2026/03/11/economy/us-inflation-cpi-consumer-prices-february
+2026-03-13 12:01:01,799 [INFO] scraper.article_extractor - Parsing article 56/77: https://edition.cnn.com/2026/03/11/business/credit-bureaus-mistakes-cfpb-propublica
+2026-03-13 12:01:04,670 [INFO] scraper.article_extractor - Parsing article 57/77: https://edition.cnn.com/2026/03/10/business/tax-filing-season-irs-tax-pros-cpa-ea
+2026-03-13 12:01:07,463 [INFO] scraper.article_extractor - Parsing article 58/77: https://edition.cnn.com/2026/03/12/business/video/cnn-sitroom-blitzer-goldman-make-it-make-sense-gas-oil-prices-economy-affordability
+2026-03-13 12:01:11,193 [INFO] scraper.article_extractor - Parsing article 59/77: https://edition.cnn.com/2026/03/11/business/video/cnn-sitroom-blitzer-goldman-make-it-make-sense-gas-oil-iran-economy-affordability
+2026-03-13 12:01:14,308 [INFO] scraper.article_extractor - Parsing article 60/77: https://edition.cnn.com/2026/03/11/business/video/bolduan-yurkevich-february-cpi-cnc
+2026-03-13 12:01:17,426 [INFO] scraper.article_extractor - Parsing article 61/77: https://edition.cnn.com/2026/03/03/business/gas-prices-oil-iran-war
+2026-03-13 12:01:20,901 [INFO] scraper.article_extractor - Parsing article 62/77: https://edition.cnn.com/2026/03/10/business/video/cnn-sitroom-blitzer-goldman-make-it-make-sense-gas-oil-iran
+2026-03-13 12:01:24,149 [INFO] scraper.article_extractor - Parsing article 63/77: https://edition.cnn.com/2025/04/13/success/last-minute-tax-filing-tips
+2026-03-13 12:01:27,037 [INFO] scraper.article_extractor - Parsing article 64/77: https://www.ft.com/content/247da046-afbe-4c3c-9ef3-02073cc61dd2
+2026-03-13 12:01:29,555 [INFO] scraper.article_extractor - Parsing article 65/77: https://www.ft.com/content/7ebf581b-3a29-4dda-967c-2abe5a1cd53e
+2026-03-13 12:01:32,528 [INFO] scraper.article_extractor - Parsing article 66/77: https://www.ft.com/content/004e785e-8e17-4cb3-8e5a-3c36190bc8b2
+2026-03-13 12:01:35,244 [INFO] scraper.article_extractor - Parsing article 67/77: https://www.ft.com/content/b9f1b5ed-3bd4-4e03-9f11-a9681127befc
+2026-03-13 12:01:38,177 [INFO] scraper.article_extractor - Parsing article 68/77: https://www.ft.com/content/f3c781d9-72e9-413e-a255-de3e75f13717
+2026-03-13 12:01:41,055 [INFO] scraper.article_extractor - Parsing article 69/77: https://www.ft.com/content/f47e1478-7b4b-4dd3-8037-6643549ac737
+2026-03-13 12:01:43,735 [INFO] scraper.article_extractor - Parsing article 70/77: https://www.ft.com/content/e318bd2c-256c-45b0-8613-d261e7f39855
+2026-03-13 12:01:46,397 [INFO] scraper.article_extractor - Parsing article 71/77: https://www.ft.com/content/dab7d625-77f8-40ff-aeb9-451f81772125
+2026-03-13 12:01:49,192 [INFO] scraper.article_extractor - Parsing article 72/77: https://www.ft.com/content/a1c81f17-201f-4e3f-8e02-e0b304f1b6a1
+2026-03-13 12:01:51,979 [INFO] scraper.article_extractor - Parsing article 73/77: https://www.ft.com/content/b95a32a2-3ce5-43fe-a76b-c157996d9214
+2026-03-13 12:01:54,532 [INFO] scraper.article_extractor - Parsing article 74/77: https://www.ft.com/content/0c41b140-12c4-46a2-91cf-51dc4d1b8cec
+2026-03-13 12:01:57,291 [INFO] scraper.article_extractor - Parsing article 75/77: https://www.ft.com/content/0bbdce3d-e49f-443a-aa66-f284ef97dc65
+2026-03-13 12:01:59,855 [INFO] scraper.article_extractor - Parsing article 76/77: https://www.ft.com/content/b8cbdbe5-cd11-41c1-ae40-52cb1ab9b47e
+2026-03-13 12:02:02,655 [INFO] scraper.article_extractor - Parsing article 77/77: https://www.ft.com/content/a983951a-31ba-4d3d-9a57-b7076cde7ae9
+2026-03-13 12:02:05,440 [INFO] main - Step 3/5 — Cleaning & filtering …
+2026-03-13 12:02:05,441 [INFO] processing.filter - Date filter: 77 → 77 articles
+2026-03-13 12:02:05,456 [INFO] processing.filter - Keyword filter: 77 → 77 articles
+2026-03-13 12:02:07,006 [INFO] processing.deduplicator - Deduplicate: 77 → 62 articles
+2026-03-13 12:02:07,039 [INFO] processing.cleaner - Cleaning pipeline complete. Final count: 62 articles
+2026-03-13 12:02:07,039 [INFO] main - Step 4/5 — Summarising …
+2026-03-13 12:02:07,305 [INFO] main - Step 5/5 — Categorising & generating newsletter …
+2026-03-13 12:02:07,879 [INFO] output.newsletter_generator - Word document saved to output/hfc_newsletter_2026-03-13.docx
+2026-03-13 12:02:07,881 [INFO] output.newsletter_generator - Newsletter saved to: 
+ • output/hfc_newsletter_2026-03-13.txt
+ • output/hfc_newsletter_2026-03-13.md
+ • output/hfc_newsletter_2026-03-13.html
+ • output/hfc_newsletter_2026-03-13.docx
+2026-03-13 12:02:07,881 [INFO] main - ━━━━━━━━ Pipeline complete in 384.2s ━━━━━━━━
+2026-03-13 12:02:07,882 [INFO] main - Outputs generated:
+2026-03-13 12:02:07,882 [INFO] main -   [TXT] output/hfc_newsletter_2026-03-13.txt
+2026-03-13 12:02:07,882 [INFO] main -   [MD] output/hfc_newsletter_2026-03-13.md
+2026-03-13 12:02:07,882 [INFO] main -   [HTML] output/hfc_newsletter_2026-03-13.html
+2026-03-13 12:02:07,882 [INFO] main -   [DOCX] output/hfc_newsletter_2026-03-13.docx
